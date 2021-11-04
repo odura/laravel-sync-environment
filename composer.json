@@ -1,0 +1,21 @@
+{
+    "name": "odura/laravel-sync-environment",
+    "description": "Set of commands to synchronize data and directories between different environments",
+    "type": "library",
+    "require": {
+        "laravel/framework": "8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Odura\\LaravelSyncEnvironment\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Olivier Durand",
+            "email": "olivier.durand@odura.fr"
+        }
+    ],
+    "minimum-stability": "dev"
+}
